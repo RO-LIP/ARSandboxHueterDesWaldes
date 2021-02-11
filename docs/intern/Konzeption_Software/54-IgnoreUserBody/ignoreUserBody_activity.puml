@@ -1,0 +1,20 @@
+@startuml
+start
+while (running) is (ja)
+    if(timer abgelaufen) then (ja)
+        if(TerrainChanged()) then (ja)
+            :Status=UNSTABLE;
+        else (nein)
+            if (Status == UNSTABLE) then (ja)
+                :Status=STABLE;
+                :ISubscriber.Update();
+            endif
+        endif
+    else (nein)
+    endif
+    if(Calculate()) then (ja)
+        :Status=UNCHANGED;
+    endif
+endwhile (nein)
+stop
+@enduml

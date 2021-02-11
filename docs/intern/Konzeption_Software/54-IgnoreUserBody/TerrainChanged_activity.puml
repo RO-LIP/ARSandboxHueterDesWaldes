@@ -1,0 +1,23 @@
+@startuml
+start
+note right
+    TerrainChanged()
+    Has the user changed the
+    terrain since the last call?
+end note
+
+if(BufferA is empty) then (yes)
+    :BufferA <- TerrainScan;
+else (no)
+    :BufferB <- TerrainScan;
+    if(BufferA == BufferB) then (yes)
+        :return false;
+        stop
+    else (no)
+        :BufferA <- BufferB;
+    endif
+endif
+:return true;
+
+stop
+@enduml

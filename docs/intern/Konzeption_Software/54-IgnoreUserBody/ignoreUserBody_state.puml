@@ -1,0 +1,13 @@
+@startuml
+
+UNSTABLE : keine Neuberechnung
+STABLE : Neuberechnung
+UNCHANGED : keine Neuberechnung
+
+[*] --> UNSTABLE
+UNSTABLE --> STABLE : stable
+UNSTABLE --> UNSTABLE : change
+STABLE --> UNSTABLE : change
+STABLE --> UNCHANGED : Calculate()
+UNCHANGED --> UNSTABLE : change
+@enduml

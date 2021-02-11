@@ -1,0 +1,20 @@
+@startuml
+
+!include skinparams.puml
+
+actor User
+
+AreaCalculator --> AreaCalculator : UNSTABLE
+AreaCalculator --> AreaCalculator : STABLE
+Spawner --> AreaCalculator : calculation request
+AreaCalculator --> AreaCalculator : calculate
+AreaCalculator --> Spawner : {STABLE, areas}
+AreaCalculator --> AreaCalculator : UNCHANGED
+Spawner --> AreaCalculator : calculation request
+AreaCalculator --> Spawner : {UNCHANGED, same areas}
+'AreaCalculator --> Terrain : scan
+User --> Terrain : manipulate
+'AreaCalculator --> Terrain : scan
+AreaCalculator --> AreaCalculator : UNSTABLE
+
+@enduml

@@ -1,0 +1,30 @@
+@startuml
+start
+:ContiguousAreas:Map(Height, Area) initialisieren;
+:HashSet EXPLORED initialisieren;
+while(Grid hat nächstes Tile) is (ja)
+    while(Tile ist in EXPLORED?) is (nein)
+        :neue AREA initialisieren;
+        :SortedSet DETECTED initialisieren;
+        :Tile DETECTED hinzufügen;
+        while(DETECTED ist leer?) is (nein)
+            :nimm das minimale Element in DETECTED;
+            :Liste NACHBARN initialisieren;
+            :Nachbarn von Tile NACHBARN hinzufügen;
+            while(NACHBARN ist leer?) is (nein)
+                :nimm nächsten Nachbar;
+                if(Nachbar bereits in DETECTED?) then (nein)
+                    :Nachbar DETECTED hinzfügen;
+                else (ja)
+                endif
+                :Nachbar aus NACHBARN entfernen;
+            endwhile (ja)
+                :Tile zu AREA hinzfügen;
+                :Tile aus DETECTED entfernen;
+                :Tile EXPLORED hinzufügen;
+        endwhile (ja)
+        :AREA mit Tile.Height ContiguousAreas hinzufügen;
+    endwhile (ja)
+endwhile (nein)
+stop
+@enduml

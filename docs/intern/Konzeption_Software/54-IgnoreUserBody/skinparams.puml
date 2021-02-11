@@ -1,0 +1,36 @@
+@startuml skinparams
+
+!$dark = "DarkGreen"
+!$light = "HoneyDew"
+!$emphasize = "Pink"
+
+'miscelaneous
+skinparam ArrowColor $dark
+skinparam NoteBorderColor $dark
+skinparam NoteBackgroundColor $light
+
+'activity
+skinparam ActivityBorderColor $dark
+skinparam ActivityBackgroundColor $light
+skinparam ActivityDiamondBorderColor $dark
+skinparam ActivityDiamondBackgroundColor $light
+
+'class
+skinparam ClassBackgroundColor $light
+skinparam ClassBorderColor $dark
+
+'object
+skinparam ObjectBorderColor $dark
+skinparam ObjectBackgroundColor $light
+
+'sequence
+skinparam sequence {
+    ActorBorderColor $dark
+    ActorBackgroundColor $light
+    LifeLineBorderColor $dark
+    LifeLineBackgroundColor $light
+    ParticipantBorderColor $dark
+    ParticipantBackgroundColor $light
+}
+
+@enduml
