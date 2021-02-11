@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Tree">
+    <Position X="8.25" Y="9.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAIBECAAEAgAgAEAAAAAMABgABAAAQEAAAAAAAA=</HashCode>
+      <FileName>Assets\HueterDesWaldes\WorldEntities\Tree.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Villager">
+    <Position X="12.5" Y="12.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AIQQAAAAADAEAAAEAAAAAAEAAAEIAAAAAEEAAAAAALA=</HashCode>
+      <FileName>Assets\HueterDesWaldes\WorldEntities\Villager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirQuality">
+    <Position X="13.75" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAABACAAABAAQAAAAAAAARAAAAAAAAAEEAAAAEA=</HashCode>
+      <FileName>Assets\HueterDesWaldes\AirQualityBar\AirQuality.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spawner">
+    <Position X="4" Y="2" Width="6" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAACAAAggAAABIAIAAAECAAABAEAAAAIAAAAA=</HashCode>
+      <FileName>Assets\HueterDesWaldes\Spawning\Spawner.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="House">
+    <Position X="12.5" Y="9.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAACACgAAEAAAAAAABAAACAAAAAAAAAQAA=</HashCode>
+      <FileName>Assets\HueterDesWaldes\WorldEntities\House.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GameManager">
+    <Position X="8.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAAAACAAAABCAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\HueterDesWaldes\GameManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="spawner" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpawnArea">
+    <Position X="7" Y="5.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAZAggAAQKAAYAAAEAFAAAAJCAEEACAABEAAEAIAQAE=</HashCode>
+      <FileName>Assets\HueterDesWaldes\Spawning\SpawnArea.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Assets.HueterDesWaldes.AreaCalculation.AreaCalculator">
+    <Position X="0.5" Y="2.75" Width="4.75" />
+    <NestedTypes>
+      <Enum Name="Assets.HueterDesWaldes.AreaCalculation.AreaCalculator.State" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\HueterDesWaldes\AreaCalculation\AreaCalculator.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAKICAJIgABAAAABBQKAAAAgFAIAAAIIAkAE=</HashCode>
+      <FileName>Assets\HueterDesWaldes\AreaCalculation\AreaCalculator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AirQualityArea" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="5.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\HueterDesWaldes\Spawning\AirQualityArea.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Well">
+    <Position X="6" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\HueterDesWaldes\WorldEntities\Well.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ISpawnArea">
+    <Position X="3.75" Y="6.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAQAAAQAAAAAEAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\HueterDesWaldes\Spawning\ISpawnArea.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assets.HueterDesWaldes.AreaCalculation.IOpenCV">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\HueterDesWaldes\AreaCalculator\IOpenCV.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IAirQualityArea">
+    <Position X="3.75" Y="8.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\HueterDesWaldes\AirQualityBar\IAirQualityArea.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IAirQualityParameter">
+    <Position X="8.25" Y="12.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\HueterDesWaldes\AirQualityBar\IAirQualityParameter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

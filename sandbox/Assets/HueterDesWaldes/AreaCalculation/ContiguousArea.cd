@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Assets.HueterDesWaldes.AreaCalculation.Area">
+    <Position X="3.5" Y="5.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAABAAAAAAAAAAACAgAAACBAAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\HueterDesWaldes\AreaCalculation\Area.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HeightLevel">
+    <Position X="0.5" Y="3.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAABAABACAAAAAAAAAA=</HashCode>
+      <FileName>Assets\HueterDesWaldes\AreaCalculation\HeightLevel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="type" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Assets.HueterDesWaldes.AreaCalculation.AreaCalculator">
+    <Position X="6" Y="5.75" Width="6.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Assets.HueterDesWaldes.AreaCalculation.AreaCalculator.State">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\HueterDesWaldes\AreaCalculation\AreaCalculator.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAKICAJIgABAAAABBQKAAAAgFAIAAAIIAkAE=</HashCode>
+      <FileName>Assets\HueterDesWaldes\AreaCalculation\AreaCalculator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="grid" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Assets.HueterDesWaldes.AreaCalculation.Tile">
+    <Position X="0.5" Y="0.5" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAQBAAAAAAAAAAQAAAAAAAABQAAABAA=</HashCode>
+      <FileName>Assets\HueterDesWaldes\AreaCalculation\Tile.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="HeightLevel" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Assets.HueterDesWaldes.AreaCalculation.Grid">
+    <Position X="6" Y="0.5" Width="4.5" />
+    <NestedTypes>
+      <Class Name="Assets.HueterDesWaldes.AreaCalculation.Grid.Borders" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\HueterDesWaldes\AreaCalculation\Grid.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAICAgAAAAAIAAAgAgAIAAAAGAAAAIAAAAAAAAAAAE=</HashCode>
+      <FileName>Assets\HueterDesWaldes\AreaCalculation\Grid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Assets.HueterDesWaldes.AreaCalculation.IAreaCalculator">
+    <Position X="0.5" Y="8.75" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABACAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Assets\HueterDesWaldes\AreaCalculation\IAreaCalculator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ISubscriber">
+    <Position X="3.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\HueterDesWaldes\AreaCalculation\ISubscriber.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IPublisher">
+    <Position X="0.5" Y="10.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAABAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\HueterDesWaldes\AreaCalculation\IPublisher.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="HeightLevelType">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAoAAACgAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\HueterDesWaldes\AreaCalculation\HeightLevel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

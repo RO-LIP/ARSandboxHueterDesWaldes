@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Assets.HueterDesWaldes.AreaCalculation.Area" Collapsed="true">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAACAgAAACBAAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\HueterDesWaldes\AreaCalculation\Area.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.HueterDesWaldes.AreaCalculation.AreaCalculator">
+    <Position X="2" Y="1" Width="6.75" />
+    <NestedTypes>
+      <Class Name="Assets.HueterDesWaldes.AreaCalculation.AreaCalculator.Borders" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\HueterDesWaldes\AreaCalculator\AreaCalculator.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQICAgAAIICABAAABAAAEABAGAAAAoEAAAAAIIAAAE=</HashCode>
+      <FileName>Assets\HueterDesWaldes\AreaCalculation\AreaCalculator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

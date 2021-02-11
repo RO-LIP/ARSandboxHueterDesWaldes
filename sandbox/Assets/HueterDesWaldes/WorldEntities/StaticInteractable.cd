@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Assets.HueterDesWaldes.WorldEntities.House" Collapsed="true">
+    <Position X="3.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAACACwAAEAAAAAAABAAACAAAAAAAAAQAA=</HashCode>
+      <FileName>Assets\HueterDesWaldes\WorldEntities\House.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Assets.HueterDesWaldes.WorldEntities.Interactable" Collapsed="true">
+    <Position X="5.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAIAAAAAAAACACAAIAAAAAIAAAAAAAiAAAA=</HashCode>
+      <FileName>Assets\HueterDesWaldes\WorldEntities\Interactable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.HueterDesWaldes.WorldEntities.StaticInteractable">
+    <Position X="5.25" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AARAAAAAAAAAAAAAAAAAAAQAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\HueterDesWaldes\WorldEntities\StaticInteractable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.HueterDesWaldes.WorldEntities.Tree" Collapsed="true">
+    <Position X="7.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAABECAAEBAAAAEAGAAAMABgABBAAQEAAAAAAAA=</HashCode>
+      <FileName>Assets\HueterDesWaldes\WorldEntities\Tree.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Assets.HueterDesWaldes.WorldEntities.Well" Collapsed="true">
+    <Position X="5.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\HueterDesWaldes\WorldEntities\Well.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.HueterDesWaldes.WorldEntities.Villager" Collapsed="true">
+    <Position X="10.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQAAFAADAEAAAEAAAAAAMIAAAAAAAAAAEAAQAACJA=</HashCode>
+      <FileName>Assets\HueterDesWaldes\WorldEntities\Villager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Assets.HueterDesWaldes.WorldEntities.InteractableType" Collapsed="true">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAKAAAAgAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Assets\HueterDesWaldes\WorldEntities\Interactable.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Assets.HueterDesWaldes.WorldEntities.VillagerState" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAIQAAAAAAAA=</HashCode>
+      <FileName>Assets\HueterDesWaldes\WorldEntities\Villager.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

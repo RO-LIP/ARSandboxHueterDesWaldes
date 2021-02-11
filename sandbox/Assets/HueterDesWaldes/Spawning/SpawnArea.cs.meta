@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 22b45cfd3588bc04e99c9c3e6436d77c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - treePrefab: {fileID: 1785226984682422927, guid: 0839354a3fe652748a944c7f90d7e2ee,
+      type: 3}
+  - wellPrefab: {fileID: 5034033326150622326, guid: 36123e2172478b245969f083763832b9,
+      type: 3}
+  - housePrefab: {fileID: 5034033326150622326, guid: ba793d4d9b91e44408e2753608473d13,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

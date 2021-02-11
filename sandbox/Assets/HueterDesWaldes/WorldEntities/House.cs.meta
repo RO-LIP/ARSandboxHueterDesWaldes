@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 1f5e112bde92c804087963a1f2fb74bb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - villagerPrefab: {fileID: 2252045552183484741, guid: b99d20f63b3faeb4dbf06e0c3b4d3c6e,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
